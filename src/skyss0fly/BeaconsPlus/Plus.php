@@ -24,3 +24,8 @@ $this->file_get_contents("Beacons.yml");
     $this->getPluginManager()->registerPermissions($permissions);
     
 }
+  public function onLoad():void {
+
+    $this->saveDefaultConfig();
+    $this->construct();
+    $this->getBeacons();
