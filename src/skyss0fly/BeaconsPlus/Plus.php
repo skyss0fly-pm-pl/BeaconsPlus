@@ -3,7 +3,7 @@
 namespace skyss0fly\BeaconsPlus;
 
 use pocketmine\blocks\Beacon;
-use pocketmine\plugin\pluginBase;
+use pocketmine\plugin\PluginBase;
 
 
 class Main extends PluginBase{
